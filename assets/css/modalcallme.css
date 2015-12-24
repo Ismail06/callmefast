@@ -1,0 +1,117 @@
+#call-me-btn {
+	float: right;
+    border-left: 1px solid #515151;
+}
+#call-me-btn a {
+    display: block;
+    color: #fff;
+    font-weight: bold;
+    padding: 8px 10px 11px 10px;
+    text-shadow: 1px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    line-height: 18px;
+}
+#callme-form span {
+	font-size: 18px;
+	text-transform: uppercase;
+	display: block;
+	text-align: left;
+	margin-bottom: 25px;
+    font-weight: 500;
+}
+#callme-form input {
+	padding: 5px 10px;
+    display: block;
+    margin-bottom: 10px;
+    margin: 0 auto 10px;
+    min-width: 230px;
+    width: 100%;
+}
+#callme-form .call-me-btn {
+	padding: 5px 15px;
+    border: 1px solid #607D8B;
+    outline: none;
+    text-align: center;
+    margin: 15px auto;
+    background: #4CAF50;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-size: 14px;
+}
+#callme-result {
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: 20px;
+    text-align: center;
+}
+#callme-result {
+	display: none;
+    padding-top: 110px;
+    background: url(../img/smile.png) no-repeat 50% 0;
+    background-size: 80px;
+}
+.arcticmodal-overlay,
+.arcticmodal-container { 
+	position: fixed; 
+	left: 0; 
+	top: 0; 
+	right: 0; 
+	bottom: 0; 
+	z-index: 9999; 
+}
+.arcticmodal-container { 
+	overflow: auto; 
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+	border-collapse: collapse; 
+}
+*:first-child+html .arcticmodal-container {
+	height: 100% 
+}
+.arcticmodal-container_i { 
+	height: 100%; 
+	margin: 0 auto; 
+}
+.arcticmodal-container_i2 { 
+	padding: 24px; 
+	margin: 0; 
+	border: 0; 
+	vertical-align: middle; 
+}
+.arcticmodal-error { 
+	padding: 20px; 
+	border-radius: 10px; 
+	background: #000; 
+	color: #fff; 
+}
+.arcticmodal-loading { 
+	width: 80px; 
+	height: 80px; 
+	border-radius: 10px; 
+	background: #000 url(../img/loading.gif) no-repeat 50% 50%; 
+}
+.box-modal {
+	position: relative;
+	width: 100%;
+	min-width: 280px;
+	max-width: 340px;
+	height: 230px;
+	padding: 20px;
+	background: #fff;
+	color: #333;
+	font: 16px/20px Arial, "Helvetica", sans-serif;
+}
+.box-modal_close { 
+    position: absolute;
+    right: 6px;
+    top: 6px;
+    font-size: 18px;
+    line-height: 15px;
+    color: rgb(76, 175, 80);
+    cursor: pointer;
+}
+.box-modal_close:hover { 
+	color: #666; 
+}

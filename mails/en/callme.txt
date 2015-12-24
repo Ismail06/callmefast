@@ -1,0 +1,10 @@
+
+[{shop_url}] 
+
+Hi, 
+
+The client requests a call back. Below information about him::
+
+Name: [{guest_name}] 		 
+
+Phone: [{guest_phone}] 
