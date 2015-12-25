@@ -15,7 +15,6 @@
 
 	<script>
 	function callme_btn(){
-		console.log($( "#callme-form" ).find( "input[name='call_me_token']" ).val());
 		$.ajax({
 			url: '/modules/callmefast/ajax/ajax.php',
 			type: "POST",
