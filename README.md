@@ -7,7 +7,7 @@ install with PrestaShop Admin area (Admin -> Modules )
 ### settings
 + to display module on different place in your template, simple use the code below:
 ```sh
-{hook h=’displayCallMeBtn’ mod=’callmefast’}
+{hook h='displayCallMeBtn' mod='callmefast'}
 ```
 
 ### compability
